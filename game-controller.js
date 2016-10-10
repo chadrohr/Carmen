@@ -4,9 +4,9 @@ function startGame() {
     })
    // JQUERY HOOKS GO DOWN HERE :)
     // You will need to use Event Delegation
-   
+//   gs
    
 
-   }
+   
   }
 $('#start').on('click', startGame);
