@@ -1,9 +1,13 @@
 function startGame() {
     new GameManager(function(gm) {
- 
-// gm.getGumshoe()
+var gumshoe = gm.getGumshoe()
+$('#city').text(gumshoe.city)
+$('#budget').text(gumshoe.budget)
+
+
+//gm.getGumshoe()
 // $('#city').on('click', function(event))
-// console.log(gm.getGumshoe())
+console.log(gm.getGumshoe())
 
 
 
