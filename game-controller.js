@@ -1,8 +1,12 @@
 function startGame() {
     new GameManager(function(gm) {
-     gm.getCities(){
-       console.log(cities)
-     } 
+
     })
+   // JQUERY HOOKS GO DOWN HERE :)
+    // You will need to use Event Delegation
+   
+   
+
+   }
   }
 $('#start').on('click', startGame);

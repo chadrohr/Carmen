@@ -31,7 +31,7 @@ function GameManager(ready) {
         return hideCarmen();
       } else {
         carmen.city = getRandomCity();
-        console.log('Carmen is hiding in: '+ carmen.city)
+       // console.log('Carmen is hiding in: '+ carmen.city)
         console.log(`Oh no, it would appear that Carmen Sansiego TM, The thieving villian is on the loose its your job to track her down and bring her to justice Gumshoe. You have a budget of $${gumshoe.budget} to find her.`)
         return ready(gm);
       }
