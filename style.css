@@ -1,0 +1,5 @@
+.container{
+    background: purple;
+    background-size: cover;
+    min-height: 100%;
+}

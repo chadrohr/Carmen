@@ -34,22 +34,22 @@ function startGame() {
                 $('#victory').html(`<h4>Oops try again!!</h4>`)
             }
             update()
-            updateBudget()
+         //   updateBudget()
         }
         function update() {
-            debugger
             gm.getGumshoe()
             var city = gm.getGumshoe().city;
             var budget = gm.getGumshoe().budget;
             $('#budget').html(budget);
             $('#current-city').html(city);
+            $('#search-cost').html(gm.getSearchCost)
         }
         function updateBudget() {
             var gumshoe = gm.getGumshoe();
             $('#budget').html(gumshoe.budget)
             $('#city').html(gumshoe.city)
         }
-        updateBudget()
+       // updateBudget()
     })
 }
 $('#start').on('click', startGame);
