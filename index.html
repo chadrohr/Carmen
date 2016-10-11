@@ -9,20 +9,25 @@
 
 <body>
     <div id="victory">
-
     </div>
-
     <button type="button" id="start">Start Game</button>
-
     <button type="button" id="search">Search</button>
-
-    <h1>Currently in: <span id="city"></span></h1>
-    <h2>Remaining Budget: $<span id="budget"></span></h2>
-
-    <h3>Travel To</h3>
-    <ul id='cities'>
-
-    </ul>
+    <div class="info">
+        <div>
+            <h1>Budget: $<span id="budget"></span></h1>
+        </div>
+        <div>
+            <h3>Current City: <span id="current-city"></span> </h3>
+        </div>
+    </div>
+    <div>
+        <h3>Cost to Search Current City: $ <span id="search-cost"></span> </h3>
+    </div>
+    <div>
+        <h3>Travel To</h3>
+        <ul id='cities'>
+        </ul>
+    </div>
     <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="app.js"></script>
     <script src="game-controller.js"></script>
